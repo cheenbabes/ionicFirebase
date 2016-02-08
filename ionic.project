@@ -1,0 +1,12 @@
+{
+  "name": "uberbooksIonic",
+  "app_id": "17390015",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

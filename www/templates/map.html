@@ -1,0 +1,8 @@
+<ion-view view-title="Map">
+    <ion-content>
+        <map center="{{coords.lat}}, {{coords.lon}}" zoom="7" styles="{{style}}" id="map">
+            <!--Sample marker implementation-->
+            <marker position="{{coords.lat}}, {{coords.lon}}" icon="{{icon}}"></marker>
+        </map>
+    </ion-content>
+</ion-view>
