@@ -27,6 +27,10 @@ You should see a browser pop up at port 8081.
 For running on Android, make sure you have all the necessary libraries and SDKs, then run `ionic run android` with your phone plugged in and it should work.
 
 
+## Limitations
+
+There's a known bug with routing after authentication. This just needs to be fixed with some custom code in `app.js`. Please fork and contribute.
+
 ## License
 
 Use however. An attribution, link, or repo star is nice. Thanks
